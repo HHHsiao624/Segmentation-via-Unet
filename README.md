@@ -20,13 +20,16 @@
 
 | 指標 | 數值 |
 |---|---|
-| Mean IoU (MIOU) | 0.602451 |
-| Average F1 | 0.747238 |
+| Mean IoU (MIOU) | **0.602451** |
+| Average F1 | **0.747238** |
 
 ### 成果圖 
 
 原始影像、切割結果、資料集標準答案
 ![成果圖]((best)test6/test6_1.png)
+![成果圖]((best)test6/test6_2.png)
+![成果圖]((best)test6/test6_3.png)
+
 ---
 
 ## 二、AutoEncoder
@@ -35,8 +38,11 @@
 
 | 指標 | 數值 |
 |---|---|
-| 平均 PSNR | 32.675 dB |
+| 平均 PSNR | **32.675** dB |
 
 ### 成果圖
+原始影像+重建影像(左圖:原始影像、右圖:重建影像)
+![成果圖](rebuilt/pic_1.png)
+![成果圖](rebuilt/pic_2.png)
+![成果圖](rebuilt/pic_3.png)
 
-![成果圖](results/example.png)
